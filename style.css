@@ -63,7 +63,7 @@ body {
     text-align: center;
 }
 .section3 {
-    background-color: rgb(241, 236, 236);
+    /* background-color: rgb(241, 236, 236); */
     min-height: 600px;
     margin: 0;
 }
@@ -120,4 +120,7 @@ body {
 .section5-1 img {
     max-width: 3%;
     padding-left: 10px;
+}
+.section3 h5, .section3 p {
+    padding-left: 15px;
 }
