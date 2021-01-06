@@ -4,13 +4,20 @@ html {
     
 }
 body {
-    font-family: 'Merriweather', serif;
-    margin-bottom: 100px;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'IBM Plex Serif', serif;
+    /* font-family: 'Gochi Hand', cursive; */
+    /* font-family: 'Lobster Two', cursive; */
+      margin-bottom: 100px;
     margin-left: 5px;
     padding-left:2px ;
+    background-color: #bedcfa;
 }
 .header {
+    font-family: 'Bebas Neue', cursive;
     padding-bottom: 30px;
+    font-size: 25px;
+    margin-bottom: 10px;
 }
 .nav {
     float:right;
@@ -43,18 +50,31 @@ body {
     /* margin-top: 30px; */
     padding-left: 20px;
     text-decoration: none;
-    background-image: linear-gradient(180deg,rgb(192, 49, 33),rgb(224, 144, 129));
+    background-image: linear-gradient(180deg,rgb(48, 156, 245),rgb(184, 203, 212));
     padding: 5px 10px 5px 5px;
-    color: white;
+    /* color: rgb(179, 23, 23); */
+    /* background-color:rgb(24, 231, 176); */
+    background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+.section4-2 a {
+    font-size: 20px;
+}
+.section1 a:hover ,.section2 a:hover,.section4-2 a:hover {
+    color:red ;
 }
 .section1-1 h1 {
     text-transform:uppercase;
 }
 .section1-1 h1 span {
-    color: orange;
+    color: rgb(6, 99, 74);
 }
 .section1 p ,.section2 p {
     padding-bottom: 10px;
+}
+.section1-1 h1 {
+    font-size: 50px;
 }
 .section2 p {
     font-weight: 100;
@@ -62,15 +82,28 @@ body {
 .section2-2 h3 {
     text-align: center;
 }
+.titlee {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 70px;
+
+    
+}
+.section2 {
+    margin-top: 100px;
+    /* text-align: center; */
+}
 .section3 {
     /* background-color: rgb(241, 236, 236); */
     min-height: 600px;
     margin: 0;
+    margin-top: 150px;
 }
 .headline {
     padding-top: 40px;
     text-align: center;
     text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
 }
 .section3mid {
     padding: 20px 0px 50px 0px;
@@ -122,5 +155,46 @@ body {
     padding-left: 10px;
 }
 .section3 h5, .section3 p {
-    padding-left: 15px;
+    padding-left: 20px;
+}
+.section3 h5 {
+    font-size: 20px;
+}
+.section3 p {
+    font-size: 20px;
+}
+
+.testimonial {
+    height: 400px;
+    /* background-color: rgb(48, 156, 245); */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 500px;
+}
+.textbox {
+    margin:50px 50px;
+    height: 300px;
+    /* background-color: salmon; */
+    width: 40%;
+    align-items: center;
+    text-align: center;
+    border: 2px solid lightblue;
+   
+}
+.testimonial1  h2{
+    text-align: center;
+    font-size: 50px;
+}   
+.textbox img {
+    width: 10%;
+    border-radius: 100px;
+}
+.name {
+    font-size: 20px;
+}
+.chat {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
 }
