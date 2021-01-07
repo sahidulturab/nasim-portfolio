@@ -201,3 +201,17 @@ body {
 .section1-2 img {
     width: 80%;
 }
+.header .nav {
+    position: fixed;
+    right: 2px;
+
+}
+.section1-1 {
+    position: relative;
+    top: 30px;
+    left: 50px;
+}
+.section2-1 img{
+    position: relative;
+    right: 150px;
+}
